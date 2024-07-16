@@ -28,6 +28,9 @@ body {
     min-height: 100dvh;
     position: relative;
     overflow-x: hidden;
+    display: grid;
+    place-content: center;
+    background: var(--off-white);
 }
 
 .wrapper {
@@ -35,7 +38,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 
